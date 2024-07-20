@@ -47,3 +47,6 @@ app.get('/stockNames', async (req, res) => {
   const stocksNames = await stockName.find();
   res.json(stocksNames)
 })
+
+// export default app;
+module.exports = app;
