@@ -32,7 +32,8 @@ const infoStockSchema = new mongoose.Schema({
 
 const stocksNameSchema = new mongoose.Schema({
   key: String,
-  name: String
+  name: String,
+  bgColor: String
 }) 
 
 const infoStock = mongoose.model('data_stock', infoStockSchema);
